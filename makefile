@@ -13,5 +13,5 @@ start:
 	@npm start
 
 copy-ng-admin:
-	@cp ./node_modules/ng-admin/build/ng-admin.min.js build/
-	@cp ./node_modules/ng-admin/build/ng-admin.min.js.map build/
+	@cp ./node_modules/ng-admin/build/ng-admin.min.js app/build/
+	@cp ./node_modules/ng-admin/build/ng-admin.min.js.map app/build/
