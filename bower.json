@@ -1,0 +1,16 @@
+{
+  "name": "ng-admin-custom-seed",
+  "description": "Structure to define ng-admin based apps. It adapts according to every project.",
+  "main": "index.js",
+  "authors": [
+    "Jacobo Dominguez"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ng-admin",
+    "custom",
+    "angular",
+    "seed"
+  ],
+  "homepage": "https://github.com/Jacodom/ng-admin-custom-seed"
+}
