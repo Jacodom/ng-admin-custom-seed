@@ -1,0 +1,15 @@
+/*
+   * This is the main bundler of css of the ng-admin app.
+   * Here is where all the css files of every module are imported and then
+   * compiled by Webpack into the main-dist.css file.
+*/
+
+/* default css file from ng-admin */
+@import "../../../node_modules/ng-admin/build/ng-admin.min.css";
+
+
+/*
+   * For each module you add, you have to import its .css file/s like this
+   * @import "routetothefile/[nameoffile].css";
+   * Comments above the import line are welcome!
+*/
