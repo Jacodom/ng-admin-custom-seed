@@ -12,5 +12,8 @@
     "angular",
     "seed"
   ],
-  "homepage": "https://github.com/Jacodom/ng-admin-custom-seed"
+  "homepage": "https://github.com/Jacodom/ng-admin-custom-seed",
+  "dependencies": {
+    "ng-admin": "^0.9.1"
+  }
 }
