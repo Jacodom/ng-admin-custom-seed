@@ -1,0 +1,25 @@
+{
+  "name": "ng-admin-custom-seed",
+  "version": "0.0.1",
+  "description": "Structure to define ng-admin based apps. It adapts according to every project. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacodom/ng-admin-custom-seed.git"
+  },
+  "keywords": [
+    "ng-admin",
+    "custom",
+    "angular",
+    "seed"
+  ],
+  "author": "Jacobo Dominguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jacodom/ng-admin-custom-seed/issues"
+  },
+  "homepage": "https://github.com/Jacodom/ng-admin-custom-seed#readme"
+}
