@@ -4,6 +4,7 @@ Here is where all the .js files of the module are placed. The files are separate
 
 ```
 scripts
+|
 |----config
         |--- config.js
 |----controllers
@@ -27,4 +28,4 @@ scripts
 
 - **states:** in case that you have to declare specials states or routes, here you can define it with a _state.js_ file.
 
-**Note:** all this files must be imported in the main.js file of the app. For further documentation on how to do it, just check that file. 
+**Note:** all this files must be imported in the main.js file of the app. For further documentation on how to do it, just check that file.
