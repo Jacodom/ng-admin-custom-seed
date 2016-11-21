@@ -1,0 +1,103 @@
+/* Basic styles to customize the ng-admin module
+  * Here you should add all the styles por the default components of ng-admin: header, menus, footer, etc.
+*/
+
+
+/* Here you can quickly define the value of the main colors of the page, you can obviously edit the css
+rules by yourself */
+/* variables definitions starts */
+$bg-all : #d5e2ea;
+$links-color : #000000;
+$links-hover : #828a90;
+$header-nav-bg : #10679e;
+$header-nav-brand : #ffffff;
+$header-nav-links : #ffffff;
+$side-bar-bg : #b5c6da;
+$side-bar-li-active : #95a5b8;
+$side-bar-li-hover : #d3ddea;
+$page-wrapper : #d5e2ea;
+$grid-bg : #bad2e2;
+$grid-odd : #e4edf2;
+$grid-hover : #ffffff;
+/* variables definitions starts */
+
+/* styles for general elements starts */
+body.custom {
+  background-color: $bg-all;
+}
+
+a {
+  color: $links-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $links-hover;
+  text-decoration: none;
+}
+/* styles for the main page ends */
+
+/* styles for the header navigation bar starts */
+#header-nav {
+  background-color: $header-nav-bg;
+}
+
+#header-nav  span a {
+  color: $header-nav-links;
+  text-decoration: none;
+}
+#header-nav  span a:hover {
+  color: #dadade;
+  text-decoration: none;
+}
+
+#header-nav  a.navbar-brand {
+  color: $header-nav-brand;
+}
+
+/* styles for the header navigation bar ends */
+
+/* styles for the sidebar menu starts */
+.navbar-default.sidebar{
+  background-color: $side-bar-bg;
+}
+
+.sidebar ul li {
+  border: 1px solid #98b4c5;
+}
+
+.sidebar ul li a.active {
+  background-color: $side-bar-li-active;
+}
+
+.sidebar ul li a:hover {
+  background-color: $side-bar-li-hover;
+}
+
+#side-menu,
+#side-menu a {
+  color: $links-color;
+  background-color: #bad2e2;
+  border-color: #8585a6;
+}
+
+#page-wrapper {
+  background-color: $page-wrapper;
+}
+
+/* styles for the sidebar menu ends */
+
+/* styles for the grids in the content view starts */
+.grid {
+  background-color: $grid-bg;
+  cursor: pointer;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: $grid-odd;
+}
+
+.table-striped > tbody > tr:hover {
+  background-color: $grid-hover;
+}
+/* styles for the grids in the content view ends */

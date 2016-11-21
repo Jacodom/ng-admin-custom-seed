@@ -7,9 +7,11 @@
 /* default css file from ng-admin */
 @import "../../../bower_components/ng-admin/build/ng-admin.min.css";
 
-
 /*
    * For each module you add, you have to import its .css file/s like this
-   * @import "routetothefile/[nameoffile].css";
+   * @import "routetothefile/[nameoffile].css" or "routetothefile/[nameoffile].scss" if you're using sass ;
    * Comments above the import line are welcome!
 */
+
+/* base module styles */
+@import "../base-ng-admin-conf/styles/base.scss";
