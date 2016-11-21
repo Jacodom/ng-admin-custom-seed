@@ -1,0 +1,84 @@
+/* Basic styles to customize the ng-admin module
+  * Here you should add all the styles por the default components of ng-admin: header, menus, footer, etc.
+*/
+
+/* styles for general elements starts */
+body.custom {
+  background-color: #d5e2ea;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #828a90;
+  text-decoration: none;
+}
+/* styles for the main page ends */
+
+/* styles for the header navigation bar starts */
+#header-nav {
+  background-color: #10679e;
+}
+
+#header-nav  span a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#header-nav  span a:hover {
+  color: #dadade;
+  text-decoration: none;
+}
+
+#header-nav  a.navbar-brand {
+  color: #ffffff;
+}
+
+/* styles for the header navigation bar ends */
+
+/* styles for the sidebar menu starts */
+.navbar-default.sidebar{
+  background-color: #b5c6da;
+}
+
+.sidebar ul li {
+  border: 1px solid #98b4c5;
+}
+
+.sidebar ul li a.active {
+  background-color: #95a5b8;
+}
+
+.sidebar ul li a:hover {
+  background-color: #d3ddea;
+}
+
+#side-menu,
+#side-menu a {
+  color: #000000;
+  background-color: #bad2e2;
+  border-color: #8585a6;
+}
+
+#page-wrapper {
+  background-color: #d5e2ea;
+}
+
+/* styles for the sidebar menu ends */
+
+/* styles for the grids in the content view starts */
+.grid {
+  background-color: #bad2e2;
+  cursor: pointer;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e4edf2;
+}
+
+.table-striped > tbody > tr:hover {
+  background-color: #ffffff;
+}
+/* styles for the grids in the content view ends */
