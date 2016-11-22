@@ -13,5 +13,5 @@ start:
 	@npm start
 
 copy-ng-admin:
-	@cp ./bower_components/ng-admin/build/ng-admin.min.js app/build/
-	@cp ./bower_components/ng-admin/build/ng-admin.min.js.map app/build/
+	@cp ./app/bower_components/ng-admin/build/ng-admin.min.js app/build/
+	@cp ./app/bower_components/ng-admin/build/ng-admin.min.js.map app/build/
