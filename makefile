@@ -5,13 +5,13 @@ install:
 
 build: copy-ng-admin
 	@./node_modules/.bin/webpack  --progress --colors --devtool source-map
-	@echo "**************************************************"
+	@echo "*******************************************************"
 	@echo "* Project Build! to exec the app just do 'make start' *"
-	@echo "**************************************************"
+	@echo "*******************************************************"
 
 start:
 	@npm start
 
 copy-ng-admin:
-	@cp ./bower_components/ng-admin/build/ng-admin.min.js app/build/
-	@cp ./bower_components/ng-admin/build/ng-admin.min.js.map app/build/
+	@cp ./app/bower_components/ng-admin/build/ng-admin.min.js app/build/
+	@cp ./app/bower_components/ng-admin/build/ng-admin.min.js.map app/build/

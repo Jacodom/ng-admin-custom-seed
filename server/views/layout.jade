@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/build/main.css')
+  body.custom(ng-app='adminApp')
+    block content
+    script(src='/build/ng-admin.min.js' type='text/javascript')
+    script(src='/build/app-main-dist.js' type='text/javascript')
