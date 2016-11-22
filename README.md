@@ -5,60 +5,60 @@ Structure to define ng-admin based apps. It adapts according to every project.
 
 1. Clone de repo
 
-```bash
+  ```bash
 
-$ git clone https://github.com/Jacodom/ng-admin-custom-seed.git
+  $ git clone https://github.com/Jacodom/ng-admin-custom-seed.git
 
-```
+  ```
 
 2. Go to the project folder
 
-```bash
+  ```bash
 
-$ cd ng-admin-custom-seed
+  $ cd ng-admin-custom-seed
 
-```
+  ```
 
 3. Install backend and frontend dependencies
 
-```bash
+  ```bash
 
-$ npm install && bower install
+  $ npm install && bower install
 
-```
+  ```
 
-or
+  or
 
-```bash
+  ```bash
 
-$ make install
+  $ make install
 
-```
+  ```
 
 4. Build the ng-admin components and the styles of the apps
 
-```bash
+  ```bash
 
-$ make build
+  $ make build
 
-```
+  ```
 
 5. Start the app
 
-```bash
+  ```bash
 
-$ make start
+  $ make start
 
-```
+  ```
 
-*PRO-TIP:*
+  *PRO-TIP:*
 
-```bash
+  ```bash
 
-$ make doall
+  $ make doall
 
-```
+  ```
 
-runs all the tasks
+  runs all the tasks
 
 6. Check out the app in http://localhost:3000
