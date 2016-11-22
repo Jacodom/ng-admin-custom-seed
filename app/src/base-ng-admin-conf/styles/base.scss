@@ -11,6 +11,7 @@ $links-color : #000000;
 $links-hover : #828a90;
 $header-nav-bg : #10679e;
 $header-nav-brand : #ffffff;
+$header-nav-brand-hover : #d3d3d3;
 $header-nav-links : #ffffff;
 $side-bar-bg : #b5c6da;
 $side-bar-li-active : #95a5b8;
@@ -45,14 +46,26 @@ a:hover {
 #header-nav  span a {
   color: $header-nav-links;
   text-decoration: none;
+  padding-top: 15px;
+  display: block;
 }
 #header-nav  span a:hover {
   color: #dadade;
   text-decoration: none;
 }
 
-#header-nav  a.navbar-brand {
+#header-nav a.navbar-brand {
   color: $header-nav-brand;
+}
+
+.navbar-default .navbar-brand {
+  color: $header-nav-brand;
+  cursor: pointer;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: $header-nav-brand-hover;
+  cursor: pointer;
 }
 
 /* styles for the header navigation bar ends */
