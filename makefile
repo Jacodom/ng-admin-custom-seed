@@ -5,9 +5,9 @@ install:
 
 build: copy-ng-admin
 	@./node_modules/.bin/webpack  --progress --colors --devtool source-map
-	@echo "**************************************************"
+	@echo "*******************************************************"
 	@echo "* Project Build! to exec the app just do 'make start' *"
-	@echo "**************************************************"
+	@echo "*******************************************************"
 
 start:
 	@npm start
