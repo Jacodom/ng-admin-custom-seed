@@ -14,11 +14,6 @@ export default function (nga, admin) {
   ]);
 
   Base.editionView().fields(Base.creationView().fields());
-  // Base.listView()
-  // .fields([
-  //   nga.field('name').label('Nombre'),
-  //   nga.field('edad').label('Edad'),
-  // ]);
 
   return Base;
 }
