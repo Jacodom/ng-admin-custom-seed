@@ -90,7 +90,7 @@ adminApp.run(function($state, $rootScope, $http) {
     //          if(to.data.limited && to.data.limit_type && typeof user !== 'undefined'){
     //            switch (to.data.limit_type) {
     //              case 'advert':
-    //                 $http.get(urlBase + 'entities/' + user.entityId + '/adverts/count?access_token=' + user_token )
+    //                 $http.get(urlBase + 'entities/' + usetom r.entityId + '/adverts/count?access_token=' + user_token )
     //                 .success(function(quantity){
     //                   console.log(quantity);
     //                   if(subscription.adverts_limit >= quantity.count){
