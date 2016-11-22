@@ -1,7 +1,7 @@
 .PHONY: build
 
 install:
-	@npm install
+	@npm install && bower install
 
 build: copy-ng-admin
 	@./node_modules/.bin/webpack  --progress --colors --devtool source-map
@@ -11,6 +11,9 @@ build: copy-ng-admin
 
 start:
 	@npm start
+
+doall:
+	@make install && make build && make start
 
 copy-ng-admin:
 	@cp ./app/bower_components/ng-admin/build/ng-admin.min.js app/build/
