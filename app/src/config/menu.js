@@ -1,6 +1,6 @@
 export default function (nga, admin) {
     return nga.menu()
-    .addChild(nga.menu(admin.getEntity('baseModule')).title('Module'))
+    .addChild(nga.menu(admin.getEntity('base')).title('Base'))
     /* Add all the menu items and their subitems */
     ;
 }
