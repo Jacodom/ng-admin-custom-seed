@@ -31,7 +31,7 @@ or
 
 ```bash
 
-$ make install && bower install
+$ make install
 
 ```
 
@@ -50,5 +50,15 @@ $ make build
 $ make start
 
 ```
+
+*PRO-TIP:*
+
+```bash
+
+$ make doall
+
+```
+
+runs all the tasks
 
 6. Check out the app in http://localhost:3000
