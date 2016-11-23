@@ -29,13 +29,15 @@ adminApp.config(['NgAdminConfigurationProvider', function (nga) {
 
     /* 1(optional): add the custom directive of your module */
     // adminApp.directive('baseDirective', require('../base-ng-admin-conf/scripts/directives/base-directive'));
-    /* 2(optional): add  the custom state of the module with its controller */
+    /* 2(optional): add the custom service of your module */
+    // adminApp.service('baseService', require('../base-ng-admin-conf/scripts/services/base-service'));
+    /* 3(optional): add  the custom state of the module with its controller */
     // adminApp.config(['$stateProvider', require('../base-ng-admin-conf/scripts/states/base-state')]);
     // adminApp.controller('BaseCtrl', require('../base-ng-admin-conf/scripts/controllers/base-controller'));
     // admin.addEntity(nga.entity('base'));
-    /* 3(mandatory): add the config for the module */
+    /* 4(mandatory): add the config for the module */
     var base = require('../base-ng-admin-conf/scripts/config/base-config')(nga, admin);
-    /* 4(mandatory): add the entity to the nga app */
+    /* 5(mandatory): add the entity to the nga app */
     admin.addEntity(base);
 
 
