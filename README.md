@@ -1,6 +1,28 @@
 # ng-admin-custom-seed
 Structure to define ng-admin based apps. It adapts according to every project.
 
+## Pre-requisites
+
+In order to create a new project you need you have installed the following software in your computer:
+
+- [NodeJs](https://nodejs.org/es/)
+- [Make](https://www.gnu.org/software/make/)
+- [Bower](https://bower.io/)
+
+```bash
+
+$ npm install -g bower
+
+```
+
+- [WebPack](https://webpack.js.org/)
+
+```bash
+
+$ npm install -g webpack
+
+```
+
 ## Installation
 
 1. Clone de repo
